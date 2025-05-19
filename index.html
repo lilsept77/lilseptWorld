@@ -7,6 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/859477bab1.js" crossorigin="anonymous" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YOUR_PUBLIC_KEY",
+      });
+   })();
+</script>
 </head>
 
 <body>
@@ -115,18 +126,18 @@
             <div class="modal_half modal_contact">
                 <h3 class="modal_title modal_title--contact">Let's have a chat!</h3>
                 <h3 class="modal_sub-title modal_sub-title--contact">I'm open to new opportunities.</h3>
-                <form id="contact_form" action="">
+                <form id="contact_form" onsubmit="contact(event)">
                     <div class="form_item">
                         <label class= "form_item--label">Name</label>
-                        <input class="input" name="user_name" type="text" required></input>
+                        <input class="input" name="user_name" type="text" ></input>
                     </div>
                     <div class="form_item">
                         <label class= "form_item--label">Email</label>
-                        <input class="input" name="user_email" type="email" required></input>
+                        <input class="input" name="user_email" type="email" ></input>
                     </div>
                     <div class="form_item">
                         <label class= "form_item--label">Message</label>
-                        <textarea class="input" name="message" type="text" required></textarea>
+                        <textarea class="input" name="message" type="text" ></textarea>
                     </div>
                     <button id="contact_submit" class="form_submit">Send it my way</button>
                 </form>

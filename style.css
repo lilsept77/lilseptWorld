@@ -449,12 +449,13 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: -1;
  }
  .modal_overlay--loading {
   background-color: rgb(3, 169, 235);
   color: black;
   font-size: 80px;
-  z-index: -1;
+  
  }
  .modal_overlay--success {
   background-color: rgb(127, 206, 255);
@@ -463,6 +464,9 @@ nav {
   font-weight: 700;
   text-align: center;
   padding: 28px;
+ }
+ .modal_overlay--visible {
+  z-index: 1;
  }
  .fa-spinner {
   animation: spinner 750ms infinite linear;
