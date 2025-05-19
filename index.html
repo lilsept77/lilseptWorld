@@ -76,6 +76,69 @@
         <a href="#projects" class="scroll">
             <div class="scroll_icon click"></div>
         </a>
+        <div class="modal">
+            <div class="modal_half modal_about">
+                <h3 class="modal_title modal_title--about">Here's a bit about me.</h3>
+                <h4 class="modal_sub-title modal_sub-title--about">Frontend Software Engineer</h4>
+                <p class="modal_para">
+                    I'm a 47 year young <b class="aqua">Software Engineer</b> with a strong passion for developing
+                    websites with great <b class="aqua">user experience</b>.
+                    I currently work on extremely difficult engineering problems and learn from a team consisting of
+                    some of the most <b class="aqua">talented</b> and <b class="aqua">experienced software engineers</b>
+                    every day.
+                </p>
+                <div class="modal_languages">
+                    <figure class="modal_language">
+                        <img class="modal_language--img"
+                            src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-64.png" alt="">
+                        <span class="language_name">HTML</span>
+                    </figure>
+                    <figure class="modal_language">
+                        <img class="modal_language--img"
+                            src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-64.png" alt="">
+                        <span class="language_name">CSS</span>
+                    </figure>
+                    <figure class="modal_language">
+                        <img class="modal_language--img"
+                            src="https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-64.png"
+                            alt="">
+                        <span class="language_name">Python</span>
+                    </figure>
+                    <figure class="modal_language">
+                        <img class="modal_language--img"
+                            src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-64.png"
+                            alt="">
+                        <span class="language_name">JS</span>
+                    </figure>
+                </div>
+            </div>
+            <div class="modal_half modal_contact">
+                <h3 class="modal_title modal_title--contact">Let's have a chat!</h3>
+                <h3 class="modal_sub-title modal_sub-title--contact">I'm open to new opportunities.</h3>
+                <form id="contact_form" action="">
+                    <div class="form_item">
+                        <label class= "form_item--label">Name</label>
+                        <input class="input" name="user_name" type="text" required></input>
+                    </div>
+                    <div class="form_item">
+                        <label class= "form_item--label">Email</label>
+                        <input class="input" name="user_email" type="email" required></input>
+                    </div>
+                    <div class="form_item">
+                        <label class= "form_item--label">Message</label>
+                        <textarea class="input" name="message" type="text" required></textarea>
+                    </div>
+                    <button id="contact_submit" class="form_submit">Send it my way</button>
+                </form>
+                <div class= "modal_overlay modal_overlay--loading">
+                <i class="fas fa-spinner"></i>
+                </div>
+                <div class= "modal_overlay modal_overlay--success">
+                    Thanks for the message! Looking forward to speak to you soon.
+                </div>
+            </div>
+            <i class="fas fa-times modal_exit click"></i>
+        </div>
     </section>
     <section id="projects">
         <div class="container">
@@ -101,7 +164,7 @@
                                     molestias voluptas laboriosam exercitationem possimus facilis repellendus
                                     praesentium!
                                 </p>
-                                
+
                                 <div class="project_description--links">
                                     <a href="#" class="project_description--link">
                                         <i class="fa-brands fa-linkedin"></i>
@@ -109,14 +172,15 @@
                                     <a href="#" class="project_description--link">
                                         <i class="fas fa-link"></i>
                                     </a>
-                                    
+
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li class="project">
                         <div class="project_wrapper">
-                            <img src="https://hips.hearstapps.com/hmg-prod/images/2025-subaru-outback-2-4-touring-xt-119-6792561e98f81.jpg?crop=0.851xw:0.637xh;0.0433xw,0.243xh&resize=1200:*" class="project_img" alt="">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/2025-subaru-outback-2-4-touring-xt-119-6792561e98f81.jpg?crop=0.851xw:0.637xh;0.0433xw,0.243xh&resize=1200:*"
+                                class="project_img" alt="">
                             <div class="project_wrapper--bg"></div>
                             <div class="project_description">
                                 <h3 class="project_description--title">
@@ -131,7 +195,7 @@
                                     molestias voluptas laboriosam exercitationem possimus facilis repellendus
                                     praesentium!
                                 </p>
-                                
+
                                 <div class="project_description--links">
                                     <a href="#" class="project_description--link">
                                         <i class="fa-brands fa-linkedin"></i>
@@ -139,14 +203,15 @@
                                     <a href="#" class="project_description--link">
                                         <i class="fas fa-link"></i>
                                     </a>
-                                    
+
                                 </div>
                             </div>
                         </div>
                     </li>
                     <li class="project">
                         <div class="project_wrapper">
-                            <img src="https://hips.hearstapps.com/hmg-prod/images/2025-subaru-outback-2-4-touring-xt-101-679256092a6c8.jpg?crop=1xw:1xh;center,top&resize=980:*" class="project_img" alt="">
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/2025-subaru-outback-2-4-touring-xt-101-679256092a6c8.jpg?crop=1xw:1xh;center,top&resize=980:*"
+                                class="project_img" alt="">
                             <div class="project_wrapper--bg"></div>
                             <div class="project_description">
                                 <h3 class="project_description--title">
@@ -161,7 +226,7 @@
                                     molestias voluptas laboriosam exercitationem possimus facilis repellendus
                                     praesentium!
                                 </p>
-                                
+
                                 <div class="project_description--links">
                                     <a href="#" class="project_description--link">
                                         <i class="fa-brands fa-linkedin"></i>
@@ -169,7 +234,7 @@
                                     <a href="#" class="project_description--link">
                                         <i class="fas fa-link"></i>
                                     </a>
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -181,42 +246,42 @@
     <footer>
         <div class="container">
             <div class="row footer_row">
-            <figure>
-                <img class="footer_logo--img" src="./assets/logo.png" alt="">
-            </figure>
-            <div class="footer_social--list">
-                <a href="#" class="
+                <figure>
+                    <img class="footer_logo--img" src="./assets/logo.png" alt="">
+                </figure>
+                <div class="footer_social--list">
+                    <a href="#" class="
                 footer_social--link
-                liver_hover-effect
-                liver_hover-effect--white
+                link_hover-effect
+                link_hover-effect--white
                 ">
-                    Github
-                </a>
-                <a href="#" class="
+                        Github
+                    </a>
+                    <a href="#" class="
                 footer_social--link
-                liver_hover-effect
-                liver_hover-effect--white
+                link_hover-effect
+                link_hover-effect--white
                 ">
-                    LinkedIn
-                </a>
-                <a href="#" class="
+                        LinkedIn
+                    </a>
+                    <a href="#" class="
                 footer_social--link
-                liver_hover-effect
-                liver_hover-effect--white
+                link_hover-effect
+                link_hover-effect--white
                 ">
-                    Contact
-                </a>
-                <a href="#" class="
+                        Contact
+                    </a>
+                    <a href="#" class="
                 footer_social--link
-                liver_hover-effect
-                liver_hover-effect--white
+                link_hover-effect
+                link_hover-effect--white
                 ">
-                    Resume
-                </a>
+                        Resume
+                    </a>
+                </div>
+                <div class="footer_copyright">Copyright © Adam Howell</div>
             </div>
-            <div class="footer_copyright">Copyright © Adam Howell</div>
         </div>
-    </div>
     </footer>
 </body>
 
