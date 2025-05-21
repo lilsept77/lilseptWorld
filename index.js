@@ -18,9 +18,13 @@ function contact(event) {
         alert(
             "The email service is temp. unavailable. Please contact me directly on: lilsept77@gmail.com"
         );
-    // console.log('This worked')
+    console.log('This worked')
     })
-     
+}
+
+function toggleModal() {
+    //toggle mode
+    console.log('toggleModal()')
 }
 
 
